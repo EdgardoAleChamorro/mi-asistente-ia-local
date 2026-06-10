@@ -1,0 +1,4 @@
+# Ignorar los datos locales y los modelos de IA
+ollama/
+open-webui/
+nextcloud/
