@@ -1,6 +1,6 @@
-# Edgardo Ale AI V1.0 -Ecosistema Local y Soberano
+# Edgardo Ale AI V1.0 - Local AI
 
-¡Bienvenido! Este proyecto nació de la necesidad de tener un **Asistente de IA personal, potente y multifuncional**, pero con una condición innegociable: **privacidad absoluta**. 
+¡Bienvenido! Este proyecto nació de la necesidad de tener un Asistente de IA personal, potente y multifuncional. 
 
 En lugar de depender de servicios en la nube que comercializan o leen nuestros datos, diseñé e implementé un ecosistema completo de Inteligencia Artificial y almacenamiento privado que corre de forma **100% local y soberana**. Todo el procesamiento se realiza dentro de mi propia infraestructura, sin que un solo byte de información salga a internet.
 
@@ -8,10 +8,10 @@ En lugar de depender de servicios en la nube que comercializan o leen nuestros d
 
 ## ¿Por qué este proyecto es diferente? 
 
-Como profesionales de tecnología, a veces nos enfocamos solo en que el código funcione. Con **Edgardo Ale AI V1.0**, el objetivo fue ir más allá:
+A veces nos enfocamos solo en que el código funcione y esta vez el objetivo fue ir más allá:
 * **Privacidad por Diseño:** Mis documentos, notas y chats se procesan en mi propio hardware.
-* **Modularidad:** Utilizo contenedores para que todo el sistema sea agnóstico; hoy corre en mi entorno virtualizado, pero mañana puede migrar a un servidor en producción o a un clúster doméstico sin cambiar una sola línea de configuración.
-* **Aprender haciendo (RAG listo):** No es solo un chat idéntico a ChatGPT; está preparado para actuar como un "cerebro secundario" capaz de leer mis propios archivos locales y responder basándose en ellos.
+* **Modularidad:** Utilizo contenedores para que todo el sistema sea agnóstico. Hoy corre en mi entorno virtualizado, pero mañana puede migrar a un servidor en producción o a un clúster doméstico sin cambiar una sola línea de configuración.
+* **Aprender haciendo (RAG listo):** No es solo un chat idéntico a ChatGPT. Está preparado para actuar como un "cerebro secundario" capaz de leer mis propios archivos locales y responder basándose en ellos.
 
 ---
 
@@ -53,7 +53,7 @@ Si querés replicar este entorno en tu propia máquina virtual o servidor local,
 
 ---
 
-# Edgardo Ale IA - v1.1 (Local AI & DevOps Observability)
+# Edgardo Ale AI V1.1 (Local AI & DevOps Observability)
 
 ---
 
