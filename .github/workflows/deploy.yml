@@ -1,0 +1,34 @@
+name: Continuous Deployment (CD) - IA Local
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Desplegar en Servidor Local
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v4
+
+      
+      - name: Conectar a Tailscale
+        uses: tailscale/github-action@v2
+        with:
+          authkey: ${{ secrets.TAILSCALE_API_KEY }}
+
+      
+      - name: Ejecutar comandos remotos por SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST }}         
+          username: iaserver                    
+          key: ${{ secrets.SSH_PRIVATE_KEY }}   
+          port: 22
+          script: |
+            cd ~/mi-asistente-local
+            git pull origin main
+            docker compose up -d --build
