@@ -51,14 +51,9 @@ Si querés replicar este entorno en tu propia máquina virtual o servidor local,
    cd mi-asistente-ia-local
 
 
-**-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
-
-
+---
 
 # Edgardo Ale IA - v1.1 (Local AI & DevOps Observability)
-
-## Descripción del Proyecto
-Este proyecto consiste en un entorno de laboratorio modular self-hosted sobre una máquina virtual Linux (Ubuntu). El ecosistema integra un asistente de inteligencia artificial privado junto con servicios de almacenamiento descentralizados, aplicando metodologías de cultura DevOps, infraestructura como código y observabilidad de sistemas.
 
 ---
 
