@@ -91,12 +91,13 @@ El entorno se encuentra completamente contenedorizado y orquestado mediante Dock
 1. Clonar el repositorio localmente.
 2. Navegar hacia el directorio raíz del proyecto.
 3. Levantar el stack completo en segundo plano (detached mode) ejecutando:
-   docker compose up -d
+```bash   
+docker compose up -d
 
 
 
 
--
+---
 
 # Edgardo Ale AI V1.2 (Continuous Deployment & Secure Networking)
 
@@ -123,5 +124,5 @@ Para esta versión, se integró una capa robusta de automatización y conectivid
 
 ## Próximos pasos
 
-Con la infraestructura monitoreada y el flujo de despliegue continuo ejecutándose de forma segura en apenas 24 segundos, la arquitectura base de nuestro entorno de Inteligencia Artificial local ha quedado consolidada, abriendo las puertas a futuras integraciones avanzadas y nuevas capacidades de procesamiento...# Edgardo Ale AI V1.2 (Continuous Deployment & Secure Networking)
+Con la infraestructura monitoreada y el flujo de despliegue continuo ejecutándose de forma segura en apenas 24 segundos, la arquitectura base de nuestro entorno de Inteligencia Artificial local ha quedado consolidada, abriendo las puertas a futuras integraciones avanzadas y nuevas capacidades de procesamiento...
 
