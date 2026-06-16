@@ -95,3 +95,32 @@ El entorno se encuentra completamente contenedorizado y orquestado mediante Dock
    docker compose up -d
 
 
+---
+
+# Edgardo Ale AI V1.2 (Continuous Deployment & Secure Networking)
+
+---
+
+## Actualizaciones en la Versión 1.2
+La versión 1.2 introduce la automatización total del ciclo de vida del software mediante la creación de una arquitectura de Integración y Despliegue Continuo (CI/CD). El objetivo principal es agilizar las iteraciones sobre el asistente de IA local, logrando que cualquier actualización de código, variables o modelos sea inyectada en el servidor de manera transparente y sin intervención manual.
+
+---
+
+## Arquitectura del Pipeline y Red Segura
+
+Para esta versión, se integró una capa robusta de automatización y conectividad privada que interactúa con el stack existente:
+
+### 1. Orquestación de CD (GitHub Actions)
+* **Workflow Automatizado:** Configuración de un flujo de trabajo (`deploy.yml`) que se dispara automáticamente ante eventos de `push` en la rama principal.
+* **Acciones Remotas por SSH:** Implementación de agentes de despliegue encargados de conectarse directamente al servidor local privado, realizar la actualización del repositorio (`git pull`) y disparar la reconstrucción automatizada del stack en caliente mediante `docker compose up -d --build`.
+
+### 2. Capa de Red Privada y Seguridad (Tailscale Mesh VPN)
+* **Tailscale Integration:** Inclusión de una extensión oficial dentro de GitHub Actions para permitir que los ejecutores de GitHub se autentiquen de manera dinámica en la red privada (Tailnet).
+* **Conectividad Segura:** Permite que el pipeline acceda al servidor local de forma directa y blindada utilizando direcciones IPs internas y llaves criptográficas administradas, eliminando por completo la necesidad de exponer puertos SSH de la máquina virtual hacia la internet pública.
+
+---
+
+## Próximos pasos
+
+Con la infraestructura monitoreada y el flujo de despliegue continuo ejecutándose de forma segura en apenas 24 segundos, la arquitectura base de nuestro entorno de Inteligencia Artificial local ha quedado consolidada, abriendo las puertas a futuras integraciones avanzadas y nuevas capacidades de procesamiento...# Edgardo Ale AI V1.2 (Continuous Deployment & Secure Networking)
+
