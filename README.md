@@ -95,7 +95,11 @@ El entorno se encuentra completamente contenedorizado y orquestado mediante Dock
    docker compose up -d
 
 
----
+
+
+
+
+-
 
 # Edgardo Ale AI V1.2 (Continuous Deployment & Secure Networking)
 
