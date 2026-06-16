@@ -91,10 +91,7 @@ El entorno se encuentra completamente contenedorizado y orquestado mediante Dock
 1. Clonar el repositorio localmente.
 2. Navegar hacia el directorio raíz del proyecto.
 3. Levantar el stack completo en segundo plano (detached mode) ejecutando:
-```bash
    docker compose up -d
-
-
 
 
 
